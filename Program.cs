@@ -12,7 +12,7 @@ namespace CS_Fun01
         static void Main(string[] args)
         {
         //1112410039_林雅菁
-            Console.Write("請輸入員的半徑:");
+            Console.Write("請輸入圓的半徑:");
             if(!double.TryParse(Console.ReadLine(),out double radius) || radius<=0 )
            {
                 Console.WriteLine("半徑輸入錯誤，請輸入正數。");
@@ -32,7 +32,7 @@ namespace CS_Fun01
             }
             Console.WriteLine("使用精度 {0} 計算的圓週率: {1:g}", precision, pi);
             double circumference = GetCircumference(radius);
-            Console.WriteLine("圓週長: {0:g}", circumference);
+            Console.WriteLine("圓周長: {0:g}", circumference);
             double area = GetCircleArea(radius);
             Console.WriteLine("圓面積: {0:g}", area);
         }
