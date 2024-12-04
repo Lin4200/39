@@ -9,7 +9,6 @@ namespace CS_Fun01
 {
     internal class Program
     {
-        //1112410039_林雅菁
         public static double CountPi(int n)
         {
             // 檢查 n 是否在合法範圍內
